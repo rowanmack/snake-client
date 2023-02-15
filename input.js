@@ -29,6 +29,9 @@ const handleUserInput = function () {
     if (key === '\u0064')
     connection.write("Move: right");
 
+    if (key === '\u0070')
+    connection.write("Say: beep beep I'm eatin!");
+
     if (key === '\u0003') {
       process.exit();
     }
