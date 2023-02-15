@@ -17,7 +17,7 @@ const connect = function() {
   // });
 
   //hard code move up actions on connection:
-  
+
   // conn.on('connect', () => {
   //   conn.write("Move: up");
   // });
