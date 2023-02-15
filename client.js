@@ -12,10 +12,6 @@ const connect = function() {
     conn.write("Name: RoW");
   });
 
-  // conn.on('connect', () => {
-  //   conn.write("Name: RoW");
-  // });
-
   //hard code move up actions on connection:
 
   // conn.on('connect', () => {
